@@ -78,8 +78,6 @@ footer ul li:last-child {
     left: 0;
   }
   article h1 {
-    text-align: left;
-    padding-left: 0.25em;
     margin-top: 0.4em;
     margin-bottom: 0.25em;
     text-shadow: 1px 1px black;
