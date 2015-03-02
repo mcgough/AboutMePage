@@ -1,0 +1,83 @@
+body {
+  font-size: 10px;
+  font-family: 'Ovo', serif;
+  line-height: 3em;
+  letter-spacing: 0.8px;
+  text-shadow: 3px 3px 3px black;
+  background: url('../images/river.jpg');
+  background-size: cover;
+  color: white;
+}
+#wrapper {
+  max-width: 50em;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  left: 30em;
+}
+article h1 {
+  font-size: 7em;
+  margin-top: 1.5em;
+}
+article p {
+  font-size: 2em;
+  text-align: justify;
+}
+footer {
+  margin-top: 7em;
+}
+footer ul {
+  text-align: center;
+}
+
+footer nav a {
+  text-decoration: none;
+  color: white;
+}
+footer nav a:hover {
+  color: white;
+  font-style: italic;
+}
+footer ul li{
+  font-size: 2em;
+  display: inline;
+  margin: 0.5em;
+  text-align: center;
+}
+@media(max-width: 1100px) {
+  #wrapper {
+    left: 15em;
+  }
+}
+@media(max-width: 800px) {
+  #wrapper {
+    left: 10em;
+  }
+}
+@media(max-width: 650px) {
+  #wrapper {
+    left: 3em;
+  }
+}
+@media(max-width: 500px) {
+  body {
+    background: #FF9500;
+  }
+  #wrapper {
+    left: 0;
+  }
+  article h1 {
+    margin-top: 0.5em;
+    text-shadow: 1px 1px black;
+  }
+  article p {
+    padding: 1em;
+    padding-bottom: 0.1em;
+    letter-spacing: 0em;
+    color: black;
+    text-shadow: none;
+  }
+  footer nav a {
+    text-shadow: 1px 1px black;
+  }
+}
