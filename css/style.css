@@ -4,7 +4,7 @@ body {
   line-height: 3em;
   letter-spacing: 0.8px;
   text-shadow: 3px 3px 3px black;
-  background: url('../images/river.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.17),rgba(0, 0, 0, 0.17)),url('../images/river.jpg');
   background-size: cover;
   color: white;
 }
@@ -13,7 +13,7 @@ body {
   text-align: center;
   margin: 0 auto;
   position: relative;
-  left: 33em;
+  left: 30em;
 }
 article h1 {
   font-size: 7em;
@@ -45,11 +45,19 @@ footer ul li{
   margin-left: 0.5em;
   border-right: 1px solid white;
 }
+footer ul li:last-child {
+  border-right: none;
+}
+@media(max-width: 1024) {
+  #wrapper {
+    left: 25em;
+  }
+}
 @media(max-width: 1100px) {
   #wrapper {
     left: 15em;
   }
-}
+}*/
 @media(max-width: 900px) {
   #wrapper {
     left: 10em;
@@ -62,21 +70,23 @@ footer ul li{
 }
 @media(max-width: 500px) {
   body {
-    background: #0783e2;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('../images/river.jpg');
+    background-size: cover;
   }
   #wrapper {
     left: 0;
   }
   article h1 {
-    margin-top: 0.5em;
+    margin-top: 0.4em;
+    margin-bottom: 0.25em;
     text-shadow: 1px 1px black;
   }
   article p {
-    padding: 1em;
-    padding-bottom: 0.1em;
+    padding: 1.5em;
+    padding-bottom: 0em;
     letter-spacing: 0em;
     color: white;
-    text-shadow: 1px 1px black;
+    text-shadow: 3px 3px 3px black;
   }
   footer nav a {
     text-shadow: 1px 1px black;
