@@ -62,7 +62,7 @@ footer ul li{
 }
 @media(max-width: 500px) {
   body {
-    background: #FF9500;
+    background: #0783e2;
   }
   #wrapper {
     left: 0;
@@ -75,8 +75,8 @@ footer ul li{
     padding: 1em;
     padding-bottom: 0.1em;
     letter-spacing: 0em;
-    color: black;
-    text-shadow: none;
+    color: white;
+    text-shadow: 1px 1px black;
   }
   footer nav a {
     text-shadow: 1px 1px black;
