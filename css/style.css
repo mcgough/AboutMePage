@@ -16,11 +16,13 @@ body {
   left: 30em;
 }
 article h1 {
+  text-align: center;
   font-size: 7em;
-  margin-top: .5em;
+  margin-top: 1em;
   margin-bottom: .2em;
 }
 article h2 {
+  text-align: center;
   font-family: 'Oxygen', sans-serif;
   font-size: 2.5em;
   letter-spacing: 0.6px;
@@ -28,7 +30,7 @@ article h2 {
 }
 article p {
   font-family: 'Raleway', sans-serif;
-  font-size: 2em;
+  font-size: 1.75em;
   text-align: justify;
 }
 #link {
@@ -94,9 +96,13 @@ footer ul li:last-child {
     left: 0;
   }
   article h1 {
+    font-size: 5.75em;
     margin-top: 0.25em;
     margin-bottom: 0.2em;
     /*text-shadow: 1px 1px black;*/
+  }
+  article h2 {
+    font-size: 2.25em;
   }
   article p {
     padding: 1em;
