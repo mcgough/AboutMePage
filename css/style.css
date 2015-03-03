@@ -104,6 +104,7 @@ footer ul li:last-child {
   }
   article h2 {
     font-size: 2em;
+    text-align: center;
   }
   article p {
     padding: 0 1em 0 1em;
