@@ -70,7 +70,7 @@ footer ul li:last-child {
 }
 @media(max-width: 1100px) {
   #wrapper {
-    left: 15em;
+    left: 18em;
   }
 }*/
 @media(max-width: 900px) {
@@ -99,7 +99,7 @@ footer ul li:last-child {
     text-align: center;
     font-size: 5em;
     margin-top: 0.25em;
-    margin-bottom: 0.2em;
+    margin-bottom: 0.3em;
     /*text-shadow: 1px 1px black;*/
   }
   article h2 {
@@ -114,5 +114,13 @@ footer ul li:last-child {
   }
   footer nav a {
     /*text-shadow: 1px 1px black;*/
+  }
+}
+@media(max-width: 400px) {
+  footer {
+    margin-top: 3em;
+  }
+  footer nav li {
+    font-size: 1.75em;
   }
 }

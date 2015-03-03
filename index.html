@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-  <title>Dan's Page</title>
+  <title>About Me</title>
   <link href='css/skeleton.css' rel='stylesheet'>
   <link href='css/normalize.css' rel='stylesheet'>
   <link href='css/style.css' rel='stylesheet'>
@@ -38,7 +38,12 @@
   </div>
   <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
   <script type="text/javascript">
-
+    $(function() {
+      if($(window).width() < 400) {
+        $('footer').detach().
+        insertAfter($('h2'));
+      }
+    });
   </script>
 </body>
 </html>
