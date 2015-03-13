@@ -50,6 +50,8 @@ article a:hover,
 footer nav a:hover {
   color: white;
   font-style: italic;
+  position: relative;
+  bottom: .1em;
 }
 footer ul li{
   font-size: 2em;
